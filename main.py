@@ -11,7 +11,7 @@ def list_to_string( array ) -> str:
 
 def sort_alphabetical_order(input_string : str) -> str:
 
-    string = input_string.lower() # FIXME: without this we will get wrong results as capital chars have a lower number then lowercase
+    input_string = input_string.lower() # FIXME: without this we will get wrong results as capital chars have a lower number then lowercase
     array = split(input_string)
 
     n = len(array)
