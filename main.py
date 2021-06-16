@@ -1,4 +1,3 @@
-from ctypes import *
 import ctypes
 
 def split(string: str) -> ctypes.Array:
