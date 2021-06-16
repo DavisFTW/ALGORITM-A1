@@ -12,3 +12,4 @@ FUNCTION: list_to_string(array)
     converts a list to a string
     
     
+ctypes was used because python does not have array type, with ctypes imported we can specify return type for function split( string: str )
