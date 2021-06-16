@@ -13,3 +13,5 @@ FUNCTION: list_to_string(array)
     
     
 ctypes was used because python does not have array type, with ctypes imported we can specify return type for function split( string: str )
+
+    
